@@ -20,7 +20,7 @@ class Card:
         elif val == '1':
             val = 'Ace'
         
-        return(val + ' of ' + self.suit)
+        return(f'{val} of {self.suit}')
 
 class Deck:
     # construct a new Deck object
